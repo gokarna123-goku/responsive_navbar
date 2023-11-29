@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const Home = () => {
-  const [navbar, setNavbar] = useState(false);
+const Navbar2 = () => {
+    const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className="w-full bg-purple-500 shadow">
+      <nav className="w-full bg-white shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="/)">
-                <h2 className="text-2xl font-bold text-white">LOGO</h2>
+                <h2 className="text-2xl font-bold">LOGO</h2>
               </a>
               <div className="md:hidden">
                 <button
@@ -39,49 +39,20 @@ const Home = () => {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white hover:text-indigo-200">
+                <li className="text-gray-600 hover:text-blue-600">
                   <a href="/)">Home</a>
                 </li>
-                <li className="text-white hover:text-indigo-200">
+                <li className="text-gray-600 hover:text-blue-600">
                   <a href="/)">Blog</a>
                 </li>
-                <li className="text-white hover:text-indigo-200">
+                <li className="text-gray-600 hover:text-blue-600">
                   <a href="/)">About US</a>
                 </li>
-                <li className="text-white hover:text-indigo-200">
+                <li className="text-gray-600 hover:text-blue-600">
                   <a href="/)">Contact US</a>
                 </li>
               </ul>
-
-              <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                <a
-                  href="/)"
-                  className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
-                >
-                  Sign in
-                </a>
-                <a
-                  href="/)"
-                  className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                >
-                  Sign up
-                </a>
-              </div>
             </div>
-          </div>
-          <div className="hidden space-x-2 md:inline-block">
-            <a
-              href="/)"
-              className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
-            >
-              Sign in
-            </a>
-            <a
-              href="/)"
-              className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-            >
-              Sign up
-            </a>
           </div>
         </div>
       </nav>
@@ -89,4 +60,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Navbar2;
