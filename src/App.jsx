@@ -12,7 +12,7 @@ function App() {
       <Router>
         <div className="w-full min-h-screen bg-slate-950">
           <Header />
-          <Home />
+          {/* <Home /> */}
         </div>
       </Router>
     </>
