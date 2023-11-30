@@ -7,6 +7,7 @@ import Navbar2 from "./Components/Header/Navbar2";
 import Navbar3 from "./Components/Header/Navbar3";
 import Navbar4 from "./Components/Header/Navbar4";
 import Navbar5 from "./Components/Header/Navbar5";
+import Glassmorphism from "./Components/Home/Glassmorphism";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Navbar3 />
           <Navbar4 />
           <Navbar5 />
+          <Glassmorphism />
         </div>
       </Router>
     </>
