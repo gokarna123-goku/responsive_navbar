@@ -11,7 +11,6 @@ const Header = () => {
   return (
     <>
       <div className="w-full h-auto px-16 py-6 bg-slate-800 shadow-md">
-        {/* className={`md:flex ${isMenuOpen ? 'flex flex-col mt-4' : 'hidden'}`} */}
         <div
           className={`w-full h-auto lg:flex md:block sm:block block 
         ${isMenuOpen ? "block" : "hidden"} items-center gap-10`}
