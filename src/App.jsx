@@ -15,12 +15,12 @@ function App() {
       <Router>
         <div className="w-full min-h-screen bg-slate-950">
           <Header />
-          <Home />
+          {/* <Home />
           <Navbar2 />
           <Navbar3 />
           <Navbar4 />
           <Navbar5 />
-          <Glassmorphism />
+          <Glassmorphism /> */}
         </div>
       </Router>
     </>
