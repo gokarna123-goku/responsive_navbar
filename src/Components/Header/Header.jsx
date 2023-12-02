@@ -12,8 +12,10 @@ const Header = () => {
     <>
       <div className="w-full h-auto px-16 py-6 bg-slate-800 shadow-md">
         {/* className={`md:flex ${isMenuOpen ? 'flex flex-col mt-4' : 'hidden'}`} */}
-        <div className={`w-full h-auto lg:flex md:block sm:block block 
-        ${isMenuOpen ? "block" : "hidden"} items-center gap-10`}>
+        <div
+          className={`w-full h-auto lg:flex md:block sm:block block 
+        ${isMenuOpen ? "block" : "hidden"} items-center gap-10`}
+        >
           <div className="logo_section">
             <Link className="text-3xl text-orange-500 font-semibold tracking-[0.1rem]">
               Navbar
