@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className="w-full bg-purple-500 shadow">
+      <nav className="w-full h-auto px-16 py-6 bg-slate-800 shadow-md">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -38,18 +39,31 @@ const Home = () => {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white hover:text-indigo-200">
-                  <a href="/)">Home</a>
+              <ul className="list-none lg:flex md:block sm:block block items-center gap-x-5 gap-y-16">
+                <li>
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                    Home
+                  </Link>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <a href="/)">Blog</a>
+                <li>
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                    About
+                  </Link>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <a href="/)">About US</a>
+                <li>
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                    Services
+                  </Link>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <a href="/)">Contact US</a>
+                <li>
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                    Portfolio
+                  </Link>
+                </li>
+                <li>
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                    Contact
+                  </Link>
                 </li>
               </ul>
 
