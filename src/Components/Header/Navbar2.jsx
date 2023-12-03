@@ -41,32 +41,32 @@ const Navbar2 = () => {
             >
               <ul className="list-none lg:flex md:block sm:block block items-center gap-x-5 gap-y-16">
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-orange-500 ease-out duration-700">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-orange-500 ease-out duration-700">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-orange-500 ease-out duration-700">
                     Services
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-orange-500 ease-out duration-700">
                     Portfolio
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-gray-200 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-orange-500 ease-out duration-700">
                     Contact
                   </Link>
                 </li>
                 <li className="ml-10">
-                  <button className="bg-blue-500 text-[1.1rem] font-normal text-white px-5 py-1.5 rounded">
+                  <button className="bg-orange-500 text-[1.1rem] font-normal text-white px-5 py-1.5 rounded">
                     Login
                   </button>
                 </li>
