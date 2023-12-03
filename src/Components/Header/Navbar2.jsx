@@ -6,7 +6,7 @@ const Navbar2 = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className="w-full h-auto px-16 py-2 bg-slate-800 shadow-md">
+      <nav className="w-full h-auto px-24 py-2 bg-slate-800 shadow-md">
         <div className="justify-between mx-auto lg:w-full md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -41,33 +41,33 @@ const Navbar2 = () => {
             >
               <ul className="list-none lg:flex md:block sm:block block items-center gap-x-5 gap-y-16">
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-orange-500 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wider text-gray-200 ease-out duration-700">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-orange-500 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wider text-gray-400 hover:hover:text-gray-200 ease-out duration-700">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-orange-500 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wider text-gray-400 hover:hover:text-gray-200 ease-out duration-700">
                     Services
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-orange-500 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wider text-gray-400 hover:hover:text-gray-200 ease-out duration-700">
                     Portfolio
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-[1.15rem] font-medium tracking-wide text-gray-400 hover:text-orange-500 ease-out duration-700">
+                  <Link className="text-[1.15rem] font-medium tracking-wider text-gray-400 hover:hover:text-gray-200 ease-out duration-700">
                     Contact
                   </Link>
                 </li>
                 <li className="ml-10">
                   <button className="bg-orange-500 text-[1.1rem] font-normal text-white px-5 py-1.5 rounded">
-                    Login
+                    Create Account
                   </button>
                 </li>
               </ul>
